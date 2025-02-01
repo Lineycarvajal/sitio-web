@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente de IA - Promoción</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo del Asistente de IA">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#precios">Precios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar...">
+            <button type="submit">Buscar</button>
+        </div>
+    </header>
+
+    <!-- Cuerpo -->
+    <main>
+        <section id="inicio">
+            <h1>Bienvenido al Asistente de IA</h1>
+            <p>Descubre cómo nuestro asistente de IA puede ayudarte a mejorar tu productividad y simplificar tu vida.</p>
+            <a href="#caracteristicas" class="cta">Conoce más</a>
+        </section>
+
+        <section id="caracteristicas">
+            <h2>Características Principales</h2>
+            <div class="feature">
+                <img src="feature1.jpg" alt="Característica 1">
+                <p>Asistencia 24/7 para todas tus necesidades.</p>
+            </div>
+            <div class="feature">
+                <img src="feature2.jpg" alt="Característica 2">
+                <p>Integración con tus aplicaciones favoritas.</p>
+            </div>
+            <div class="feature">
+                <img src="feature3.jpg" alt="Característica 3">
+                <p>Respuestas rápidas y precisas.</p>
+            </div>
+        </section>
+
+        <section id="precios">
+            <h2>Nuestros Planes</h2>
+            <div class="pricing-table">
+                <div class="plan">
+                    <h3>Básico</h3>
+                    <p>$10/mes</p>
+                    <a href="#suscribirse" class="cta">Suscribirse</a>
+                </div>
+                <div class="plan">
+                    <h3>Premium</h3>
+                    <p>$30/mes</p>
+                    <a href="#suscribirse" class="cta">Suscribirse</a>
+                </div>
+                <div class="plan">
+                    <h3>Empresarial</h3>
+                    <p>$50/mes</p>
+                    <a href="#suscribirse" class="cta">Suscribirse</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="footer-links">
+            <h3>Enlaces Importantes</h3>
+            <ul>
+                <li><a href="#politica-privacidad">Política de Privacidad</a></li>
+                <li><a href="#terminos-servicio">Términos de Servicio</a></li>
+                <li><a href="#preguntas-frecuentes">Preguntas Frecuentes</a></li>
+            </ul>
+        </div>
+        <div class="contact-info">
+            <h3>Contacto</h3>
+            <p>Email: info@asistenteia.com</p>
+            <p>Teléfono: +123 456 7890</p>
+        </div>
+        <div class="subscription-form">
+            <h3>Suscríbete</h3>
+            <form id="suscribirse">
+                <input type="email" placeholder="Ingresa tu email" required>
+                <button type="submit">Suscribirse</button>
+            </form>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
